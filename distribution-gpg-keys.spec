@@ -1,8 +1,7 @@
 Name:		distribution-gpg-keys
-Version:	1.39
+Version:	1.81
 Release:	1
 Summary:	GPG keys of various Linux distributions
-
 License:	CC0
 URL:		https://github.com/xsuchy/distribution-gpg-keys
 # Sources can be obtained by
@@ -38,7 +37,6 @@ GPG keys used by Copr projects.
 %install
 mkdir -p %{buildroot}%{_datadir}/%{name}/
 cp -a keys/* %{buildroot}%{_datadir}/%{name}/
-
 
 %files
 %license LICENSE

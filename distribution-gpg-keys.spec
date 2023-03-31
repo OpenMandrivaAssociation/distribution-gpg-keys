@@ -1,6 +1,6 @@
 Name:		distribution-gpg-keys
 Version:	1.81
-Release:	1
+Release:	2
 Summary:	GPG keys of various Linux distributions
 License:	CC0
 URL:		https://github.com/xsuchy/distribution-gpg-keys
